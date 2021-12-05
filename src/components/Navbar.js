@@ -12,10 +12,7 @@ function Navbar() {
         <div className={styles.navbarLogo}>
           <Link href='/'>
             <h1>
-              <span className={styles.logo}>
-                <span className={styles.tel}>TELE</span>
-                MENTS
-              </span>
+            JW
             </h1>
           </Link>
         </div>

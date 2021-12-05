@@ -1,3 +1,14 @@
+:root {
+  --color1: #1C2B45;
+  --color2: #F54748;
+  --color3: #FB9300;
+  --color4: #FCF5DF;
+  --color5: #62760C;
+  --color6: #2F2519;
+  --color7: #0E63AF;
+  --color8: #F1C445;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
 
 @font-face {
@@ -7,8 +18,8 @@
 
 html {
   font-size: 62.5%;
-  background-color: var(--color1);
-  color: var(--color4)
+  background-color: var(--color4);
+  color: var(--color6)
 }
 
 body {
