@@ -1,0 +1,206 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4rem;
+    color: var(--color8);
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--color5);
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.leftSale {
+    padding-left: 5rem;
+}
+
+.leftSale h3 {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .4rem;
+    word-spacing: .5rem;
+    padding-top: 1rem;
+    border-bottom: 2px solid;
+    width: fit-content;
+}
+
+.leftSale p {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 1.rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.btnLeft,
+.btnRight {
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    border: solid 2px var(--color8);
+    transition: all 0.2s ease-in;
+    white-space: nowrap;
+}
+
+.btnLeft {
+    background-color: var(--color8);
+    color: var(--color5);
+}
+
+.btnLeft:hover {
+    background-color: var(--color5);
+    color: var(--color8);
+    transition: all 0.2s ease-in;
+}
+
+.btnRight {
+    color: var(--color8)
+}
+
+.btnRight:hover {
+    background-color: var(--color8);
+    color: var(--color5);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.rightContent {
+    padding: 1rem 2rem;
+}
+
+.crestArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.crest {
+    width: 100px;
+    height: 100px;
+    margin-bottom: .5rem;
+}
+
+.crestArea p {
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: var(--color8);
+}
+
+.jwblText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 9px solid var(--color52);
+    border-bottom: 9px solid var(--color52);
+}
+
+.hr1{
+    width: 100%;
+    height: 4px;
+    background-color: var(--color8);
+    border: none;
+}
+
+.hr2{
+    width: 100%;
+    height: 4px;
+    background-color: var(--color3);
+    border: none;
+}
+
+.jwblText h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+.jwblText h2 {
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 5px 4px var(--color52);
+    font-weight: 100;
+    font-size: 7rem;
+    letter-spacing: .1rem;
+    color: var(--color4);
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.lowerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scriptText {
+    font-family: 'birds';
+    font-size: 3rem;
+    color: var(--color8);
+    text-align: center;
+    width: 100%;
+}
+
+.jwblText p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    word-spacing: .3rem;
+}
+
+.divider {
+    width: 100%;
+    height: 4px;
+    background-color: var(--color8);
+    border: none;
+}
+.divider2 {
+    width: 100%;
+    height: 4px;
+    background-color: var(--color3);
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.walker {
+    width: 50px;
+    margin-top: 2rem;
+}
+
+
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10rem;
+}

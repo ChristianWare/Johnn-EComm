@@ -4,26 +4,6 @@ import Link from "next/link";
 function Slide2() {
   return (
     <div className={styles.content}>
-      <div className={styles.left}>
-        <div className={styles.leftSale}>
-          <h3>RED LABEL 750ML</h3>
-          <p lang='en'>
-            Flowers that bloom into flames. Johnnie Walker Red Label is the
-            world’s best-selling Scotch Whisky. And is made for mixing, both in
-            exhilarating cocktails and with your favorite people. It brings
-            together whiskies specially chosen for their bold, vibrant flavors
-            that add a fiery kick to any mix.
-          </p>
-          <div className={styles.btnContainer}>
-            <Link href='/'>
-              <a className={styles.btnLeft}>ADD TO CART</a>
-            </Link>
-            <Link href='/'>
-              <a className={styles.btnRight}>DETAILS</a>
-            </Link>
-          </div>
-        </div>
-      </div>
       <div className={styles.right}>
         <div className={styles.rightContent}>
           <div className={styles.crestArea}>
@@ -49,6 +29,26 @@ function Slide2() {
               src='/images/logo16Gold.svg'
               alt=''
             />
+          </div>
+        </div>
+      </div>
+      <div className={styles.left}>
+        <div className={styles.leftSale}>
+          <h3>RED LABEL 750ML</h3>
+          <p lang='en'>
+            Flowers that bloom into flames. Johnnie Walker Red Label is the
+            world’s best-selling Scotch Whisky. And is made for mixing, both in
+            exhilarating cocktails and with your favorite people. It brings
+            together whiskies specially chosen for their bold, vibrant flavors
+            that add a fiery kick to any mix.
+          </p>
+          <div className={styles.btnContainer}>
+            <Link href='/'>
+              <a className={styles.btnLeft}>ADD TO CART</a>
+            </Link>
+            <Link href='/'>
+              <a className={styles.btnRight}>DETAILS</a>
+            </Link>
           </div>
         </div>
       </div>
