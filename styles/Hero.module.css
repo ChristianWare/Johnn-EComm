@@ -1,0 +1,208 @@
+.heroSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    background-color: var(--color1);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5rem;
+    color: var(--color8);
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+
+.leftSale {
+    padding-left: 5rem;
+}
+
+.leftSale h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: .3rem;
+    line-height: 1.2;
+    margin-top: -1.2rem;
+}
+
+.leftSale h3 {
+       font-family: 'Roboto Condensed',
+       sans-serif;
+       font-size: 1.5rem;
+       font-weight: 600;
+       letter-spacing: .5rem;
+       word-spacing: .5rem; 
+       padding-top: 1rem;
+       border-bottom: 2px solid;
+       width: fit-content;
+}
+
+.leftSale p {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.btnLeft,
+.btnRight {
+    padding: 1rem 2rem;
+    width: 100%;
+    border: solid 2px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.2s ease-in;
+    white-space: nowrap;
+}
+
+.btnLeft {
+    background-color: var(--color8);
+    color: var(--color1);
+}
+
+.btnLeft:hover {
+    background-color: var(--color1);
+    color: var(--color8);
+    transition: all 0.2s ease-in;
+}
+
+.btnRight:hover {
+    background-color: var(--color8);
+    color: var(--color1);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: solid 2px;
+    border-radius: 5px; 
+}
+
+.rightContent {
+    padding: 1rem;
+}
+
+.crestArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.crest {
+    width: 100px;
+    height: 100px;
+    margin-bottom: .5rem;
+}
+
+.crestArea p {
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+
+.jwblText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jwblText h4 {
+    font-family: 'Cormorant Garamond',
+    serif;
+
+    font-weight: 400;
+    font-size: 2.5rem;
+    /* font-size: 2rem; */
+    letter-spacing: .5rem;
+    background-color: transparent;
+}
+
+.jwblText h2 {
+    font-family: "Clockwork";
+    font-weight: 400;
+    font-size: 10rem;
+    letter-spacing: .1rem;
+    position: relative;
+    top: -15px;
+    white-space: nowrap;
+}
+
+.jwblText h3 {
+    font-family: 'Roboto Condensed',
+    sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    word-spacing: .5rem;
+    margin-top: -3rem;
+}
+
+
+.divider {
+    width: 35%;
+    height: .1rem;
+    color: var(--color8);
+    background-color: var(--color8);
+    border: none;
+    margin-top: .8rem;
+    margin-bottom: 1.3rem;
+}
+
+.lowerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallText {
+    font-size: 1.1rem;
+    font-weight: 600;
+    word-spacing: .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.scriptText {
+font-family: 'birds';
+font-size: 2rem;
+}
+
+.walker {
+    width: 50px;
+    margin-top: 2rem;
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10rem;
+}

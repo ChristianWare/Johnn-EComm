@@ -9,11 +9,31 @@
   --color8: #F1C445;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@300&family=Pinyon+Script&family=Poppins:wght@100;200;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 @font-face {
   font-family: "Ethelvina";
-  src: url("/fonts/Ethelvina.otf");
+  src: url("/fonts/Ethelvina.ttf");
+}
+
+@font-face {
+  font-family: "Avestrava";
+  src: url("/fonts/Avestrava.ttf");
+}
+
+@font-face {
+  font-family: "Seagram";
+  src: url("/fonts/Seagram.ttf");
+}
+
+@font-face {
+  font-family: "Clockwork";
+  src: url("/fonts/Clockwork.ttf");
+}
+
+@font-face {
+  font-family: "birds";
+  src: url("/fonts/birds.ttf");
 }
 
 html {
@@ -72,11 +92,11 @@ body,
 html {
   overflow-x: hidden;
 }
-
+/* 
 ::selection {
   color: var(--color1);
   background-color: var(--color4);
-}
+} */
 
 @media screen and (max-width: 768px) {
   html {
