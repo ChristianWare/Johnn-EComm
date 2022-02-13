@@ -1,9 +1,4 @@
 .heroSection {
     /* height: 100vh; */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 10rem;    
+    padding-top: 5rem;
 }
